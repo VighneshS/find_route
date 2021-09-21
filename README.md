@@ -27,15 +27,19 @@ Where,
   format of [input1.txt](input1.txt)
 - `start_node` is the origin node from which we need to start searching the route to `end_node` which is the destination
   node.
-- `heuristic_file_location` is an optional file location which when given will make the program to perform informed A*
-  search algorithm.
+- `heuristic_file_location` is an optional file location which when given will make the program to perform informed
+  search algorithm which is similar to the [h_kassel.txt](h_kassel.txt) file.
 
 ## Sample input and output:
+
 - Input:
+
 ```
 find_route.py input1.txt Bremen Kassel
 ```
+
 - Output:
+
 ```
 Nodes Popped: 27
 Nodes Expanded: 11
@@ -45,9 +49,15 @@ Route:
 Bremen to Hannover, 132.0 km
 Hannover to Kassel, 165.0 km
 ```
+
 ## About the Author:
+
 UTA ID: 1001878596
+
 Sivaraman, Vighnesh
+
 Student at The University of Texas at Arlington
+
 Masters in Computer and Information Sciences
+
 Email ID: vxs8596@mavs.uta.edu
