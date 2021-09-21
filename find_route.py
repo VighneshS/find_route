@@ -33,7 +33,9 @@ def get_cost_and_path_of_traversal(traversal, destination, origin):
     return path, cumulative_cost
 
 
-def uniform_cost_search_or_a_star_based_on_heuristic(origin, destination, heuristic={}):
+def uniform_cost_search_or_a_star_based_on_heuristic(origin, destination, heuristic=None):
+    if heuristic is None:
+        heuristic = {}
     nodes_expanded = 0
     nodes_popped = 0
     visited = []
