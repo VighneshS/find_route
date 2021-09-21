@@ -32,6 +32,8 @@ Where,
 
 ## Sample input and output:
 
+### Uninformed Search:
+
 - Input:
 
 ```
@@ -49,6 +51,39 @@ Route:
 Bremen to Hannover, 132.0 km
 Hannover to Kassel, 165.0 km
 ```
+
+### Informed Search:
+
+- Input:
+
+```
+find_route.py input1.txt Bremen Kassel h_kassel.txt
+```
+
+- Output:
+
+```
+Nodes Popped: 3
+Nodes Expanded: 2
+Nodes Generated: 8
+Distance: 297.0 km
+Route:
+Bremen to Hannover, 132.0 km
+Hannover to Kassel, 165.0 km
+```
+
+### Infinite Distance i.e., No Route between start and end node:
+
+- Output:
+
+```
+Nodes Popped: 14
+Nodes Expanded: 7
+Nodes Generated: 14
+Distance: Infinity km
+Route:
+None
+  ```
 
 ## About the Author:
 
