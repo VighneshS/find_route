@@ -96,3 +96,7 @@ Student at The University of Texas at Arlington
 Masters in Computer and Information Sciences
 
 Email ID: vxs8596@mavs.uta.edu
+
+## References
+
+- [Basic Difference between the Uniform Cost Search and A* search](https://stackoverflow.com/questions/44151713/what-is-the-difference-between-uniform-cost-search-and-best-first-search-methods)
